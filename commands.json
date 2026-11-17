@@ -1,0 +1,1682 @@
+[
+  {
+    "command": "pwd",
+    "description": "عرض المسار الحالي",
+    "example": "pwd",
+    "category": "أساسيات الطرفية",
+    "caution": false
+  },
+  {
+    "command": "ls",
+    "description": "عرض محتويات المجلد",
+    "example": "ls -lah",
+    "category": "أساسيات الطرفية",
+    "caution": false
+  },
+  {
+    "command": "cd",
+    "description": "تغيير المجلد",
+    "example": "cd /tmp",
+    "category": "أساسيات الطرفية",
+    "caution": false
+  },
+  {
+    "command": "clear",
+    "description": "مسح شاشة الطرفية",
+    "example": "clear",
+    "category": "أساسيات الطرفية",
+    "caution": false
+  },
+  {
+    "command": "history",
+    "description": "عرض سجل الأوامر",
+    "example": "history",
+    "category": "أساسيات الطرفية",
+    "caution": false
+  },
+  {
+    "command": "man",
+    "description": "فتح دليل أمر",
+    "example": "man ls",
+    "category": "أساسيات الطرفية",
+    "caution": false
+  },
+  {
+    "command": "help",
+    "description": "عرض مساعدة أمر مدمج",
+    "example": "help cd",
+    "category": "أساسيات الطرفية",
+    "caution": false
+  },
+  {
+    "command": "type",
+    "description": "معرفة نوع الأمر",
+    "example": "type cd",
+    "category": "أساسيات الطرفية",
+    "caution": false
+  },
+  {
+    "command": "which",
+    "description": "تحديد مسار البرنامج",
+    "example": "which bash",
+    "category": "أساسيات الطرفية",
+    "caution": false
+  },
+  {
+    "command": "whereis",
+    "description": "البحث عن ملفات البرنامج",
+    "example": "whereis bash",
+    "category": "أساسيات الطرفية",
+    "caution": false
+  },
+  {
+    "command": "whatis",
+    "description": "وصف مختصر للأمر",
+    "example": "whatis ls",
+    "category": "أساسيات الطرفية",
+    "caution": false
+  },
+  {
+    "command": "apropos",
+    "description": "البحث في أوصاف الأدلة",
+    "example": "apropos network",
+    "category": "أساسيات الطرفية",
+    "caution": false
+  },
+  {
+    "command": "alias",
+    "description": "إنشاء اختصار للأوامر",
+    "example": "alias ll='ls -lah'",
+    "category": "أساسيات الطرفية",
+    "caution": false
+  },
+  {
+    "command": "unalias",
+    "description": "إزالة اختصار",
+    "example": "unalias ll",
+    "category": "أساسيات الطرفية",
+    "caution": false
+  },
+  {
+    "command": "echo",
+    "description": "طباعة نص أو متغير",
+    "example": "echo Hello",
+    "category": "أساسيات الطرفية",
+    "caution": false
+  },
+  {
+    "command": "printf",
+    "description": "طباعة منسقة",
+    "example": "printf '%s\\n' Hello",
+    "category": "أساسيات الطرفية",
+    "caution": false
+  },
+  {
+    "command": "date",
+    "description": "عرض التاريخ والوقت",
+    "example": "date",
+    "category": "أساسيات الطرفية",
+    "caution": false
+  },
+  {
+    "command": "cal",
+    "description": "عرض التقويم",
+    "example": "cal",
+    "category": "أساسيات الطرفية",
+    "caution": false
+  },
+  {
+    "command": "whoami",
+    "description": "عرض المستخدم الحالي",
+    "example": "whoami",
+    "category": "أساسيات الطرفية",
+    "caution": false
+  },
+  {
+    "command": "id",
+    "description": "عرض معرفات المستخدم",
+    "example": "id",
+    "category": "أساسيات الطرفية",
+    "caution": false
+  },
+  {
+    "command": "exit",
+    "description": "إنهاء جلسة الطرفية",
+    "example": "exit",
+    "category": "أساسيات الطرفية",
+    "caution": false
+  },
+  {
+    "command": "touch",
+    "description": "إنشاء ملف فارغ أو تحديث وقته",
+    "example": "touch notes.txt",
+    "category": "الملفات والمجلدات",
+    "caution": false
+  },
+  {
+    "command": "mkdir",
+    "description": "إنشاء مجلد",
+    "example": "mkdir -p work/docs",
+    "category": "الملفات والمجلدات",
+    "caution": false
+  },
+  {
+    "command": "rmdir",
+    "description": "حذف مجلد فارغ",
+    "example": "rmdir empty",
+    "category": "الملفات والمجلدات",
+    "caution": true
+  },
+  {
+    "command": "cp",
+    "description": "نسخ الملفات",
+    "example": "cp file.txt backup.txt",
+    "category": "الملفات والمجلدات",
+    "caution": false
+  },
+  {
+    "command": "mv",
+    "description": "نقل ملف أو تغيير اسمه",
+    "example": "mv old.txt new.txt",
+    "category": "الملفات والمجلدات",
+    "caution": false
+  },
+  {
+    "command": "rm",
+    "description": "حذف ملف",
+    "example": "rm old.txt",
+    "category": "الملفات والمجلدات",
+    "caution": true
+  },
+  {
+    "command": "ln",
+    "description": "إنشاء رابط صلب أو رمزي",
+    "example": "ln -s /tmp target",
+    "category": "الملفات والمجلدات",
+    "caution": false
+  },
+  {
+    "command": "readlink",
+    "description": "عرض هدف الرابط الرمزي",
+    "example": "readlink target",
+    "category": "الملفات والمجلدات",
+    "caution": false
+  },
+  {
+    "command": "realpath",
+    "description": "عرض المسار المطلق",
+    "example": "realpath notes.txt",
+    "category": "الملفات والمجلدات",
+    "caution": false
+  },
+  {
+    "command": "stat",
+    "description": "عرض بيانات ملف",
+    "example": "stat notes.txt",
+    "category": "الملفات والمجلدات",
+    "caution": false
+  },
+  {
+    "command": "file",
+    "description": "تحديد نوع الملف",
+    "example": "file notes.txt",
+    "category": "الملفات والمجلدات",
+    "caution": false
+  },
+  {
+    "command": "find",
+    "description": "البحث عن الملفات",
+    "example": "find . -name '*.txt'",
+    "category": "الملفات والمجلدات",
+    "caution": false
+  },
+  {
+    "command": "locate",
+    "description": "البحث باستخدام قاعدة الفهرسة",
+    "example": "locate bashrc",
+    "category": "الملفات والمجلدات",
+    "caution": false
+  },
+  {
+    "command": "updatedb",
+    "description": "تحديث فهرس locate",
+    "example": "sudo updatedb",
+    "category": "الملفات والمجلدات",
+    "caution": false
+  },
+  {
+    "command": "basename",
+    "description": "استخراج اسم الملف من المسار",
+    "example": "basename /tmp/a.txt",
+    "category": "الملفات والمجلدات",
+    "caution": false
+  },
+  {
+    "command": "dirname",
+    "description": "استخراج مسار المجلد",
+    "example": "dirname /tmp/a.txt",
+    "category": "الملفات والمجلدات",
+    "caution": false
+  },
+  {
+    "command": "tree",
+    "description": "عرض شجرة المجلدات",
+    "example": "tree -L 2",
+    "category": "الملفات والمجلدات",
+    "caution": false
+  },
+  {
+    "command": "du",
+    "description": "حساب حجم الملفات والمجلدات",
+    "example": "du -sh .",
+    "category": "الملفات والمجلدات",
+    "caution": false
+  },
+  {
+    "command": "df",
+    "description": "عرض المساحة المتاحة",
+    "example": "df -h",
+    "category": "الملفات والمجلدات",
+    "caution": false
+  },
+  {
+    "command": "install",
+    "description": "نسخ ملف مع ضبط الصلاحيات",
+    "example": "install -m 755 script.sh /tmp/script.sh",
+    "category": "الملفات والمجلدات",
+    "caution": false
+  },
+  {
+    "command": "truncate",
+    "description": "تغيير حجم ملف",
+    "example": "truncate -s 0 sample.log",
+    "category": "الملفات والمجلدات",
+    "caution": false
+  },
+  {
+    "command": "mktemp",
+    "description": "إنشاء ملف مؤقت آمن",
+    "example": "mktemp",
+    "category": "الملفات والمجلدات",
+    "caution": false
+  },
+  {
+    "command": "cat",
+    "description": "عرض محتوى ملف",
+    "example": "cat notes.txt",
+    "category": "قراءة النصوص ومعالجتها",
+    "caution": false
+  },
+  {
+    "command": "less",
+    "description": "تصفح ملف صفحة صفحة",
+    "example": "less /etc/hosts",
+    "category": "قراءة النصوص ومعالجتها",
+    "caution": false
+  },
+  {
+    "command": "more",
+    "description": "عرض النص على صفحات",
+    "example": "more notes.txt",
+    "category": "قراءة النصوص ومعالجتها",
+    "caution": false
+  },
+  {
+    "command": "head",
+    "description": "عرض بداية الملف",
+    "example": "head -n 10 notes.txt",
+    "category": "قراءة النصوص ومعالجتها",
+    "caution": false
+  },
+  {
+    "command": "tail",
+    "description": "عرض نهاية الملف",
+    "example": "tail -n 20 notes.txt",
+    "category": "قراءة النصوص ومعالجتها",
+    "caution": false
+  },
+  {
+    "command": "tac",
+    "description": "عرض الأسطر بترتيب معكوس",
+    "example": "tac notes.txt",
+    "category": "قراءة النصوص ومعالجتها",
+    "caution": false
+  },
+  {
+    "command": "nl",
+    "description": "ترقيم الأسطر",
+    "example": "nl notes.txt",
+    "category": "قراءة النصوص ومعالجتها",
+    "caution": false
+  },
+  {
+    "command": "wc",
+    "description": "عد الأسطر والكلمات والبايتات",
+    "example": "wc -l notes.txt",
+    "category": "قراءة النصوص ومعالجتها",
+    "caution": false
+  },
+  {
+    "command": "grep",
+    "description": "البحث عن نص",
+    "example": "grep -n 'root' /etc/passwd",
+    "category": "قراءة النصوص ومعالجتها",
+    "caution": false
+  },
+  {
+    "command": "sed",
+    "description": "تعديل النصوص تدفقياً",
+    "example": "sed 's/foo/bar/g' notes.txt",
+    "category": "قراءة النصوص ومعالجتها",
+    "caution": false
+  },
+  {
+    "command": "awk",
+    "description": "معالجة أعمدة النص",
+    "example": "awk '{print $1}' notes.txt",
+    "category": "قراءة النصوص ومعالجتها",
+    "caution": false
+  },
+  {
+    "command": "cut",
+    "description": "استخراج أعمدة",
+    "example": "cut -d: -f1 /etc/passwd",
+    "category": "قراءة النصوص ومعالجتها",
+    "caution": false
+  },
+  {
+    "command": "paste",
+    "description": "دمج أسطر الملفات",
+    "example": "paste a.txt b.txt",
+    "category": "قراءة النصوص ومعالجتها",
+    "caution": false
+  },
+  {
+    "command": "sort",
+    "description": "ترتيب الأسطر",
+    "example": "sort names.txt",
+    "category": "قراءة النصوص ومعالجتها",
+    "caution": false
+  },
+  {
+    "command": "uniq",
+    "description": "إزالة التكرارات المتجاورة",
+    "example": "sort names.txt | uniq",
+    "category": "قراءة النصوص ومعالجتها",
+    "caution": false
+  },
+  {
+    "command": "tr",
+    "description": "استبدال الأحرف",
+    "example": "echo hello | tr a-z A-Z",
+    "category": "قراءة النصوص ومعالجتها",
+    "caution": false
+  },
+  {
+    "command": "tee",
+    "description": "عرض المخرجات وحفظها",
+    "example": "echo hello | tee output.txt",
+    "category": "قراءة النصوص ومعالجتها",
+    "caution": false
+  },
+  {
+    "command": "diff",
+    "description": "مقارنة ملفين",
+    "example": "diff a.txt b.txt",
+    "category": "قراءة النصوص ومعالجتها",
+    "caution": false
+  },
+  {
+    "command": "comm",
+    "description": "مقارنة ملفين مرتبين",
+    "example": "comm a.txt b.txt",
+    "category": "قراءة النصوص ومعالجتها",
+    "caution": false
+  },
+  {
+    "command": "cmp",
+    "description": "مقارنة ملفين على مستوى البايت",
+    "example": "cmp a.bin b.bin",
+    "category": "قراءة النصوص ومعالجتها",
+    "caution": false
+  },
+  {
+    "command": "strings",
+    "description": "استخراج النصوص المقروءة",
+    "example": "strings binaryfile",
+    "category": "قراءة النصوص ومعالجتها",
+    "caution": false
+  },
+  {
+    "command": "split",
+    "description": "تقسيم ملف إلى أجزاء",
+    "example": "split -l 100 large.txt part_",
+    "category": "قراءة النصوص ومعالجتها",
+    "caution": false
+  },
+  {
+    "command": "join",
+    "description": "دمج ملفات على حقل مشترك",
+    "example": "join a.txt b.txt",
+    "category": "قراءة النصوص ومعالجتها",
+    "caution": false
+  },
+  {
+    "command": "fold",
+    "description": "التفاف الأسطر الطويلة",
+    "example": "fold -w 80 notes.txt",
+    "category": "قراءة النصوص ومعالجتها",
+    "caution": false
+  },
+  {
+    "command": "expand",
+    "description": "تحويل Tabs إلى مسافات",
+    "example": "expand notes.txt",
+    "category": "قراءة النصوص ومعالجتها",
+    "caution": false
+  },
+  {
+    "command": "column",
+    "description": "تنسيق النص كأعمدة",
+    "example": "column -t data.txt",
+    "category": "قراءة النصوص ومعالجتها",
+    "caution": false
+  },
+  {
+    "command": "chmod",
+    "description": "تعديل صلاحيات الملفات",
+    "example": "chmod 644 notes.txt",
+    "category": "الصلاحيات والمستخدمون",
+    "caution": true
+  },
+  {
+    "command": "chown",
+    "description": "تغيير مالك ملف",
+    "example": "sudo chown user:user notes.txt",
+    "category": "الصلاحيات والمستخدمون",
+    "caution": true
+  },
+  {
+    "command": "chgrp",
+    "description": "تغيير مجموعة الملف",
+    "example": "sudo chgrp users notes.txt",
+    "category": "الصلاحيات والمستخدمون",
+    "caution": false
+  },
+  {
+    "command": "umask",
+    "description": "عرض قناع الصلاحيات الافتراضي",
+    "example": "umask",
+    "category": "الصلاحيات والمستخدمون",
+    "caution": false
+  },
+  {
+    "command": "getfacl",
+    "description": "قراءة قوائم صلاحيات ACL",
+    "example": "getfacl notes.txt",
+    "category": "الصلاحيات والمستخدمون",
+    "caution": false
+  },
+  {
+    "command": "setfacl",
+    "description": "تعديل ACL",
+    "example": "setfacl -m u:alice:r notes.txt",
+    "category": "الصلاحيات والمستخدمون",
+    "caution": false
+  },
+  {
+    "command": "sudo",
+    "description": "تنفيذ أمر بصلاحيات مرتفعة",
+    "example": "sudo whoami",
+    "category": "الصلاحيات والمستخدمون",
+    "caution": false
+  },
+  {
+    "command": "su",
+    "description": "الانتقال إلى مستخدم آخر",
+    "example": "su - username",
+    "category": "الصلاحيات والمستخدمون",
+    "caution": false
+  },
+  {
+    "command": "passwd",
+    "description": "تغيير كلمة مرور المستخدم",
+    "example": "passwd",
+    "category": "الصلاحيات والمستخدمون",
+    "caution": false
+  },
+  {
+    "command": "users",
+    "description": "عرض المستخدمين المسجلين",
+    "example": "users",
+    "category": "الصلاحيات والمستخدمون",
+    "caution": false
+  },
+  {
+    "command": "who",
+    "description": "عرض جلسات المستخدمين",
+    "example": "who",
+    "category": "الصلاحيات والمستخدمون",
+    "caution": false
+  },
+  {
+    "command": "w",
+    "description": "عرض المستخدمين ونشاطهم",
+    "example": "w",
+    "category": "الصلاحيات والمستخدمون",
+    "caution": false
+  },
+  {
+    "command": "groups",
+    "description": "عرض مجموعات المستخدم",
+    "example": "groups",
+    "category": "الصلاحيات والمستخدمون",
+    "caution": false
+  },
+  {
+    "command": "getent",
+    "description": "قراءة قواعد بيانات النظام",
+    "example": "getent passwd",
+    "category": "الصلاحيات والمستخدمون",
+    "caution": false
+  },
+  {
+    "command": "useradd",
+    "description": "إنشاء حساب مستخدم",
+    "example": "sudo useradd -m newuser",
+    "category": "الصلاحيات والمستخدمون",
+    "caution": true
+  },
+  {
+    "command": "adduser",
+    "description": "إنشاء مستخدم تفاعلياً",
+    "example": "sudo adduser newuser",
+    "category": "الصلاحيات والمستخدمون",
+    "caution": true
+  },
+  {
+    "command": "usermod",
+    "description": "تعديل خصائص مستخدم",
+    "example": "sudo usermod -aG sudo newuser",
+    "category": "الصلاحيات والمستخدمون",
+    "caution": true
+  },
+  {
+    "command": "userdel",
+    "description": "حذف حساب مستخدم",
+    "example": "sudo userdel newuser",
+    "category": "الصلاحيات والمستخدمون",
+    "caution": true
+  },
+  {
+    "command": "groupadd",
+    "description": "إنشاء مجموعة",
+    "example": "sudo groupadd developers",
+    "category": "الصلاحيات والمستخدمون",
+    "caution": true
+  },
+  {
+    "command": "groupmod",
+    "description": "تعديل مجموعة",
+    "example": "sudo groupmod -n dev developers",
+    "category": "الصلاحيات والمستخدمون",
+    "caution": false
+  },
+  {
+    "command": "groupdel",
+    "description": "حذف مجموعة",
+    "example": "sudo groupdel dev",
+    "category": "الصلاحيات والمستخدمون",
+    "caution": true
+  },
+  {
+    "command": "chage",
+    "description": "إدارة صلاحية كلمة المرور",
+    "example": "sudo chage -l username",
+    "category": "الصلاحيات والمستخدمون",
+    "caution": false
+  },
+  {
+    "command": "last",
+    "description": "عرض سجل تسجيل الدخول",
+    "example": "last",
+    "category": "الصلاحيات والمستخدمون",
+    "caution": false
+  },
+  {
+    "command": "lastlog",
+    "description": "عرض آخر دخول للمستخدمين",
+    "example": "lastlog",
+    "category": "الصلاحيات والمستخدمون",
+    "caution": false
+  },
+  {
+    "command": "ps",
+    "description": "عرض العمليات",
+    "example": "ps aux",
+    "category": "العمليات والموارد",
+    "caution": false
+  },
+  {
+    "command": "top",
+    "description": "مراقبة العمليات مباشرة",
+    "example": "top",
+    "category": "العمليات والموارد",
+    "caution": false
+  },
+  {
+    "command": "htop",
+    "description": "مراقبة تفاعلية للعمليات",
+    "example": "htop",
+    "category": "العمليات والموارد",
+    "caution": false
+  },
+  {
+    "command": "pgrep",
+    "description": "البحث عن معرف عملية",
+    "example": "pgrep bash",
+    "category": "العمليات والموارد",
+    "caution": false
+  },
+  {
+    "command": "pidof",
+    "description": "معرفة PID لبرنامج",
+    "example": "pidof bash",
+    "category": "العمليات والموارد",
+    "caution": false
+  },
+  {
+    "command": "kill",
+    "description": "إرسال إشارة لعملية",
+    "example": "kill -TERM 1234",
+    "category": "العمليات والموارد",
+    "caution": false
+  },
+  {
+    "command": "pkill",
+    "description": "إرسال إشارة حسب الاسم",
+    "example": "pkill -TERM exampleprocess",
+    "category": "العمليات والموارد",
+    "caution": false
+  },
+  {
+    "command": "killall",
+    "description": "إرسال إشارة لعمليات باسم محدد",
+    "example": "killall -TERM exampleprocess",
+    "category": "العمليات والموارد",
+    "caution": false
+  },
+  {
+    "command": "nice",
+    "description": "تشغيل عملية بأولوية معينة",
+    "example": "nice -n 10 command",
+    "category": "العمليات والموارد",
+    "caution": false
+  },
+  {
+    "command": "renice",
+    "description": "تغيير أولوية عملية",
+    "example": "renice 10 -p 1234",
+    "category": "العمليات والموارد",
+    "caution": false
+  },
+  {
+    "command": "jobs",
+    "description": "عرض مهام الصدفة",
+    "example": "jobs",
+    "category": "العمليات والموارد",
+    "caution": false
+  },
+  {
+    "command": "bg",
+    "description": "استئناف مهمة في الخلفية",
+    "example": "bg %1",
+    "category": "العمليات والموارد",
+    "caution": false
+  },
+  {
+    "command": "fg",
+    "description": "جلب مهمة إلى المقدمة",
+    "example": "fg %1",
+    "category": "العمليات والموارد",
+    "caution": false
+  },
+  {
+    "command": "nohup",
+    "description": "إبقاء العملية بعد الخروج",
+    "example": "nohup command &",
+    "category": "العمليات والموارد",
+    "caution": false
+  },
+  {
+    "command": "wait",
+    "description": "انتظار عملية خلفية",
+    "example": "wait",
+    "category": "العمليات والموارد",
+    "caution": false
+  },
+  {
+    "command": "uptime",
+    "description": "عرض مدة التشغيل والحمل",
+    "example": "uptime",
+    "category": "العمليات والموارد",
+    "caution": false
+  },
+  {
+    "command": "free",
+    "description": "عرض استخدام الذاكرة",
+    "example": "free -h",
+    "category": "العمليات والموارد",
+    "caution": false
+  },
+  {
+    "command": "vmstat",
+    "description": "إحصاءات الذاكرة والعمليات",
+    "example": "vmstat 1 3",
+    "category": "العمليات والموارد",
+    "caution": false
+  },
+  {
+    "command": "iostat",
+    "description": "إحصاءات الإدخال والإخراج",
+    "example": "iostat",
+    "category": "العمليات والموارد",
+    "caution": false
+  },
+  {
+    "command": "lsof",
+    "description": "عرض الملفات المفتوحة",
+    "example": "lsof -i",
+    "category": "العمليات والموارد",
+    "caution": false
+  },
+  {
+    "command": "fuser",
+    "description": "معرفة العمليات التي تستخدم ملفاً",
+    "example": "fuser /tmp",
+    "category": "العمليات والموارد",
+    "caution": false
+  },
+  {
+    "command": "time",
+    "description": "قياس مدة التنفيذ",
+    "example": "time ls",
+    "category": "العمليات والموارد",
+    "caution": false
+  },
+  {
+    "command": "timeout",
+    "description": "تحديد مهلة أمر",
+    "example": "timeout 5s sleep 10",
+    "category": "العمليات والموارد",
+    "caution": false
+  },
+  {
+    "command": "watch",
+    "description": "تكرار أمر وعرض نتيجته",
+    "example": "watch -n 2 date",
+    "category": "العمليات والموارد",
+    "caution": false
+  },
+  {
+    "command": "ip",
+    "description": "عرض وإدارة عناوين الشبكة",
+    "example": "ip addr show",
+    "category": "الشبكات والاتصال",
+    "caution": false
+  },
+  {
+    "command": "ss",
+    "description": "عرض المقابس والاتصالات",
+    "example": "ss -tuln",
+    "category": "الشبكات والاتصال",
+    "caution": false
+  },
+  {
+    "command": "ping",
+    "description": "اختبار الاتصال",
+    "example": "ping -c 4 127.0.0.1",
+    "category": "الشبكات والاتصال",
+    "caution": false
+  },
+  {
+    "command": "tracepath",
+    "description": "تتبع مسار الشبكة",
+    "example": "tracepath example.com",
+    "category": "الشبكات والاتصال",
+    "caution": false
+  },
+  {
+    "command": "traceroute",
+    "description": "تتبع مسار الحزم",
+    "example": "traceroute example.com",
+    "category": "الشبكات والاتصال",
+    "caution": false
+  },
+  {
+    "command": "hostname",
+    "description": "عرض اسم الجهاز",
+    "example": "hostname",
+    "category": "الشبكات والاتصال",
+    "caution": false
+  },
+  {
+    "command": "hostnamectl",
+    "description": "إدارة اسم المضيف",
+    "example": "hostnamectl status",
+    "category": "الشبكات والاتصال",
+    "caution": false
+  },
+  {
+    "command": "resolvectl",
+    "description": "الاستعلام عن DNS",
+    "example": "resolvectl status",
+    "category": "الشبكات والاتصال",
+    "caution": false
+  },
+  {
+    "command": "getent",
+    "description": "الاستعلام عن أسماء المضيفين",
+    "example": "getent hosts localhost",
+    "category": "الشبكات والاتصال",
+    "caution": false
+  },
+  {
+    "command": "dig",
+    "description": "الاستعلام عن DNS",
+    "example": "dig example.com",
+    "category": "الشبكات والاتصال",
+    "caution": false
+  },
+  {
+    "command": "nslookup",
+    "description": "استعلام DNS",
+    "example": "nslookup example.com",
+    "category": "الشبكات والاتصال",
+    "caution": false
+  },
+  {
+    "command": "curl",
+    "description": "إرسال طلب HTTP",
+    "example": "curl -I https://example.com",
+    "category": "الشبكات والاتصال",
+    "caution": false
+  },
+  {
+    "command": "wget",
+    "description": "تنزيل ملف",
+    "example": "wget https://example.com/",
+    "category": "الشبكات والاتصال",
+    "caution": false
+  },
+  {
+    "command": "ssh",
+    "description": "الاتصال الآمن بجهاز بعيد",
+    "example": "ssh user@host",
+    "category": "الشبكات والاتصال",
+    "caution": false
+  },
+  {
+    "command": "scp",
+    "description": "نسخ ملفات عبر SSH",
+    "example": "scp notes.txt user@host:/tmp/",
+    "category": "الشبكات والاتصال",
+    "caution": false
+  },
+  {
+    "command": "sftp",
+    "description": "نقل الملفات بشكل آمن",
+    "example": "sftp user@host",
+    "category": "الشبكات والاتصال",
+    "caution": false
+  },
+  {
+    "command": "rsync",
+    "description": "مزامنة الملفات",
+    "example": "rsync -av source/ destination/",
+    "category": "الشبكات والاتصال",
+    "caution": false
+  },
+  {
+    "command": "nmcli",
+    "description": "إدارة NetworkManager",
+    "example": "nmcli device status",
+    "category": "الشبكات والاتصال",
+    "caution": false
+  },
+  {
+    "command": "nmtui",
+    "description": "واجهة نصية لإدارة الشبكات",
+    "example": "nmtui",
+    "category": "الشبكات والاتصال",
+    "caution": false
+  },
+  {
+    "command": "ethtool",
+    "description": "عرض خصائص واجهة الشبكة",
+    "example": "ethtool eth0",
+    "category": "الشبكات والاتصال",
+    "caution": false
+  },
+  {
+    "command": "arp",
+    "description": "عرض جدول ARP القديم",
+    "example": "arp -n",
+    "category": "الشبكات والاتصال",
+    "caution": false
+  },
+  {
+    "command": "ip neigh",
+    "description": "عرض جدول الجيران",
+    "example": "ip neigh show",
+    "category": "الشبكات والاتصال",
+    "caution": false
+  },
+  {
+    "command": "ip route",
+    "description": "عرض جدول التوجيه",
+    "example": "ip route show",
+    "category": "الشبكات والاتصال",
+    "caution": false
+  },
+  {
+    "command": "tcpdump",
+    "description": "التقاط حزم الشبكة",
+    "example": "tcpdump -i lo -c 5",
+    "category": "الشبكات والاتصال",
+    "caution": false
+  },
+  {
+    "command": "nc",
+    "description": "اختبار اتصال TCP",
+    "example": "nc -vz 127.0.0.1 22",
+    "category": "الشبكات والاتصال",
+    "caution": false
+  },
+  {
+    "command": "apt",
+    "description": "إدارة الحزم",
+    "example": "sudo apt update",
+    "category": "الحزم والتحديثات",
+    "caution": false
+  },
+  {
+    "command": "apt-get",
+    "description": "إدارة الحزم بسكربتات",
+    "example": "sudo apt-get upgrade",
+    "category": "الحزم والتحديثات",
+    "caution": false
+  },
+  {
+    "command": "apt-cache",
+    "description": "البحث في معلومات الحزم",
+    "example": "apt-cache policy bash",
+    "category": "الحزم والتحديثات",
+    "caution": false
+  },
+  {
+    "command": "apt-mark",
+    "description": "تثبيت حالة الحزمة",
+    "example": "apt-mark showmanual",
+    "category": "الحزم والتحديثات",
+    "caution": false
+  },
+  {
+    "command": "dpkg",
+    "description": "الاستعلام عن الحزم المثبتة",
+    "example": "dpkg -l",
+    "category": "الحزم والتحديثات",
+    "caution": false
+  },
+  {
+    "command": "dpkg-query",
+    "description": "استعلام مفصل عن الحزم",
+    "example": "dpkg-query -W bash",
+    "category": "الحزم والتحديثات",
+    "caution": false
+  },
+  {
+    "command": "dpkg-deb",
+    "description": "فحص محتويات حزمة deb",
+    "example": "dpkg-deb -I package.deb",
+    "category": "الحزم والتحديثات",
+    "caution": false
+  },
+  {
+    "command": "add-apt-repository",
+    "description": "إدارة مصادر APT",
+    "example": "add-apt-repository --help",
+    "category": "الحزم والتحديثات",
+    "caution": true
+  },
+  {
+    "command": "update-alternatives",
+    "description": "إدارة البدائل",
+    "example": "update-alternatives --display editor",
+    "category": "الحزم والتحديثات",
+    "caution": false
+  },
+  {
+    "command": "command-not-found",
+    "description": "اقتراح حزمة لأمر مفقود",
+    "example": "command-not-found --help",
+    "category": "الحزم والتحديثات",
+    "caution": false
+  },
+  {
+    "command": "lsblk",
+    "description": "عرض أجهزة التخزين",
+    "example": "lsblk -f",
+    "category": "الأقراص وأنظمة الملفات",
+    "caution": false
+  },
+  {
+    "command": "blkid",
+    "description": "عرض UUID وأنواع أنظمة الملفات",
+    "example": "sudo blkid",
+    "category": "الأقراص وأنظمة الملفات",
+    "caution": false
+  },
+  {
+    "command": "mount",
+    "description": "عرض الأنظمة المركبة",
+    "example": "mount",
+    "category": "الأقراص وأنظمة الملفات",
+    "caution": false
+  },
+  {
+    "command": "umount",
+    "description": "فصل نظام ملفات",
+    "example": "sudo umount /mnt/usb",
+    "category": "الأقراص وأنظمة الملفات",
+    "caution": true
+  },
+  {
+    "command": "findmnt",
+    "description": "عرض نقاط التركيب",
+    "example": "findmnt",
+    "category": "الأقراص وأنظمة الملفات",
+    "caution": false
+  },
+  {
+    "command": "fdisk",
+    "description": "فحص جدول تقسيم قرص",
+    "example": "sudo fdisk -l",
+    "category": "الأقراص وأنظمة الملفات",
+    "caution": true
+  },
+  {
+    "command": "parted",
+    "description": "عرض تقسيمات الأقراص",
+    "example": "sudo parted -l",
+    "category": "الأقراص وأنظمة الملفات",
+    "caution": true
+  },
+  {
+    "command": "partprobe",
+    "description": "طلب إعادة قراءة جدول التقسيم",
+    "example": "sudo partprobe",
+    "category": "الأقراص وأنظمة الملفات",
+    "caution": false
+  },
+  {
+    "command": "fsck",
+    "description": "فحص نظام الملفات",
+    "example": "fsck --help",
+    "category": "الأقراص وأنظمة الملفات",
+    "caution": false
+  },
+  {
+    "command": "mkfs.ext4",
+    "description": "إنشاء نظام ملفات ext4",
+    "example": "mkfs.ext4 -V",
+    "category": "الأقراص وأنظمة الملفات",
+    "caution": true
+  },
+  {
+    "command": "resize2fs",
+    "description": "تغيير حجم نظام ملفات ext",
+    "example": "resize2fs -V",
+    "category": "الأقراص وأنظمة الملفات",
+    "caution": false
+  },
+  {
+    "command": "tune2fs",
+    "description": "عرض إعدادات ext",
+    "example": "sudo tune2fs -l /dev/sda1",
+    "category": "الأقراص وأنظمة الملفات",
+    "caution": false
+  },
+  {
+    "command": "dumpe2fs",
+    "description": "عرض بيانات ext",
+    "example": "sudo dumpe2fs -h /dev/sda1",
+    "category": "الأقراص وأنظمة الملفات",
+    "caution": false
+  },
+  {
+    "command": "swapon",
+    "description": "عرض مساحات swap",
+    "example": "swapon --show",
+    "category": "الأقراص وأنظمة الملفات",
+    "caution": false
+  },
+  {
+    "command": "swapoff",
+    "description": "تعطيل swap",
+    "example": "swapoff --help",
+    "category": "الأقراص وأنظمة الملفات",
+    "caution": true
+  },
+  {
+    "command": "dd",
+    "description": "نسخ بيانات منخفض المستوى",
+    "example": "dd --help",
+    "category": "الأقراص وأنظمة الملفات",
+    "caution": true
+  },
+  {
+    "command": "sync",
+    "description": "تفريغ بيانات الكتابة المعلقة",
+    "example": "sync",
+    "category": "الأقراص وأنظمة الملفات",
+    "caution": false
+  },
+  {
+    "command": "lsattr",
+    "description": "عرض سمات الملفات",
+    "example": "lsattr notes.txt",
+    "category": "الأقراص وأنظمة الملفات",
+    "caution": false
+  },
+  {
+    "command": "chattr",
+    "description": "تعديل سمات الملفات",
+    "example": "chattr --help",
+    "category": "الأقراص وأنظمة الملفات",
+    "caution": true
+  },
+  {
+    "command": "systemctl",
+    "description": "إدارة خدمات systemd",
+    "example": "systemctl status ssh",
+    "category": "الخدمات والسجلات",
+    "caution": false
+  },
+  {
+    "command": "service",
+    "description": "إدارة خدمات النظام",
+    "example": "service --status-all",
+    "category": "الخدمات والسجلات",
+    "caution": false
+  },
+  {
+    "command": "journalctl",
+    "description": "قراءة سجلات systemd",
+    "example": "journalctl -b -n 50",
+    "category": "الخدمات والسجلات",
+    "caution": false
+  },
+  {
+    "command": "logger",
+    "description": "إضافة رسالة لسجل النظام",
+    "example": "logger 'test message'",
+    "category": "الخدمات والسجلات",
+    "caution": false
+  },
+  {
+    "command": "dmesg",
+    "description": "عرض رسائل النواة",
+    "example": "dmesg | tail",
+    "category": "الخدمات والسجلات",
+    "caution": false
+  },
+  {
+    "command": "systemd-analyze",
+    "description": "تحليل وقت الإقلاع",
+    "example": "systemd-analyze blame",
+    "category": "الخدمات والسجلات",
+    "caution": false
+  },
+  {
+    "command": "loginctl",
+    "description": "عرض جلسات المستخدمين",
+    "example": "loginctl list-sessions",
+    "category": "الخدمات والسجلات",
+    "caution": false
+  },
+  {
+    "command": "timedatectl",
+    "description": "عرض إعدادات الوقت",
+    "example": "timedatectl status",
+    "category": "الخدمات والسجلات",
+    "caution": false
+  },
+  {
+    "command": "localectl",
+    "description": "عرض إعدادات اللغة",
+    "example": "localectl status",
+    "category": "الخدمات والسجلات",
+    "caution": false
+  },
+  {
+    "command": "hostnamectl",
+    "description": "عرض معلومات المضيف",
+    "example": "hostnamectl",
+    "category": "الخدمات والسجلات",
+    "caution": false
+  },
+  {
+    "command": "systemd-run",
+    "description": "تشغيل أمر كوحدة مؤقتة",
+    "example": "systemd-run --user --scope true",
+    "category": "الخدمات والسجلات",
+    "caution": false
+  },
+  {
+    "command": "bash",
+    "description": "تشغيل Bash",
+    "example": "bash --version",
+    "category": "الصدفة والأتمتة",
+    "caution": false
+  },
+  {
+    "command": "sh",
+    "description": "تشغيل صدفة POSIX",
+    "example": "sh -c 'echo hello'",
+    "category": "الصدفة والأتمتة",
+    "caution": false
+  },
+  {
+    "command": "source",
+    "description": "تحميل إعدادات الصدفة",
+    "example": "source ~/.bashrc",
+    "category": "الصدفة والأتمتة",
+    "caution": false
+  },
+  {
+    "command": "export",
+    "description": "تصدير متغير بيئة",
+    "example": "export DEMO=1",
+    "category": "الصدفة والأتمتة",
+    "caution": false
+  },
+  {
+    "command": "env",
+    "description": "عرض متغيرات البيئة",
+    "example": "env",
+    "category": "الصدفة والأتمتة",
+    "caution": false
+  },
+  {
+    "command": "printenv",
+    "description": "طباعة متغير بيئة",
+    "example": "printenv HOME",
+    "category": "الصدفة والأتمتة",
+    "caution": false
+  },
+  {
+    "command": "set",
+    "description": "عرض متغيرات وخيارات الصدفة",
+    "example": "set",
+    "category": "الصدفة والأتمتة",
+    "caution": false
+  },
+  {
+    "command": "unset",
+    "description": "حذف متغير",
+    "example": "unset DEMO",
+    "category": "الصدفة والأتمتة",
+    "caution": false
+  },
+  {
+    "command": "read",
+    "description": "قراءة مدخل من المستخدم",
+    "example": "read -r name",
+    "category": "الصدفة والأتمتة",
+    "caution": false
+  },
+  {
+    "command": "test",
+    "description": "اختبار شرط",
+    "example": "test -f notes.txt",
+    "category": "الصدفة والأتمتة",
+    "caution": false
+  },
+  {
+    "command": "true",
+    "description": "إرجاع حالة نجاح",
+    "example": "true",
+    "category": "الصدفة والأتمتة",
+    "caution": false
+  },
+  {
+    "command": "false",
+    "description": "إرجاع حالة فشل",
+    "example": "false",
+    "category": "الصدفة والأتمتة",
+    "caution": false
+  },
+  {
+    "command": "seq",
+    "description": "إنشاء تسلسل أرقام",
+    "example": "seq 1 5",
+    "category": "الصدفة والأتمتة",
+    "caution": false
+  },
+  {
+    "command": "xargs",
+    "description": "تحويل الإدخال إلى وسائط",
+    "example": "printf 'a\\nb\\n' | xargs",
+    "category": "الصدفة والأتمتة",
+    "caution": false
+  },
+  {
+    "command": "crontab",
+    "description": "إدارة مهام cron",
+    "example": "crontab -l",
+    "category": "الصدفة والأتمتة",
+    "caution": false
+  },
+  {
+    "command": "at",
+    "description": "جدولة أمر لمرة واحدة",
+    "example": "at -l",
+    "category": "الصدفة والأتمتة",
+    "caution": false
+  },
+  {
+    "command": "sleep",
+    "description": "إيقاف مؤقت",
+    "example": "sleep 2",
+    "category": "الصدفة والأتمتة",
+    "caution": false
+  },
+  {
+    "command": "trap",
+    "description": "معالجة إشارات الصدفة",
+    "example": "trap 'echo bye' EXIT",
+    "category": "الصدفة والأتمتة",
+    "caution": false
+  },
+  {
+    "command": "getopts",
+    "description": "تحليل خيارات سكربت Bash",
+    "example": "help getopts",
+    "category": "الصدفة والأتمتة",
+    "caution": false
+  },
+  {
+    "command": "tar",
+    "description": "إنشاء أو استخراج أرشيف",
+    "example": "tar -czf archive.tar.gz docs/",
+    "category": "الضغط والأرشفة",
+    "caution": false
+  },
+  {
+    "command": "gzip",
+    "description": "ضغط ملف",
+    "example": "gzip notes.txt",
+    "category": "الضغط والأرشفة",
+    "caution": false
+  },
+  {
+    "command": "gunzip",
+    "description": "فك ضغط gzip",
+    "example": "gunzip notes.txt.gz",
+    "category": "الضغط والأرشفة",
+    "caution": false
+  },
+  {
+    "command": "bzip2",
+    "description": "ضغط باستخدام bzip2",
+    "example": "bzip2 notes.txt",
+    "category": "الضغط والأرشفة",
+    "caution": false
+  },
+  {
+    "command": "bunzip2",
+    "description": "فك ضغط bzip2",
+    "example": "bunzip2 notes.txt.bz2",
+    "category": "الضغط والأرشفة",
+    "caution": false
+  },
+  {
+    "command": "xz",
+    "description": "ضغط باستخدام xz",
+    "example": "xz notes.txt",
+    "category": "الضغط والأرشفة",
+    "caution": false
+  },
+  {
+    "command": "unxz",
+    "description": "فك ضغط xz",
+    "example": "unxz notes.txt.xz",
+    "category": "الضغط والأرشفة",
+    "caution": false
+  },
+  {
+    "command": "zip",
+    "description": "إنشاء ملف ZIP",
+    "example": "zip archive.zip notes.txt",
+    "category": "الضغط والأرشفة",
+    "caution": false
+  },
+  {
+    "command": "unzip",
+    "description": "استخراج ZIP",
+    "example": "unzip archive.zip",
+    "category": "الضغط والأرشفة",
+    "caution": false
+  },
+  {
+    "command": "zcat",
+    "description": "قراءة ملف gzip مضغوط",
+    "example": "zcat notes.txt.gz",
+    "category": "الضغط والأرشفة",
+    "caution": false
+  },
+  {
+    "command": "zgrep",
+    "description": "البحث في gzip",
+    "example": "zgrep hello notes.txt.gz",
+    "category": "الضغط والأرشفة",
+    "caution": false
+  },
+  {
+    "command": "uname",
+    "description": "عرض معلومات النواة",
+    "example": "uname -a",
+    "category": "العتاد والنواة",
+    "caution": false
+  },
+  {
+    "command": "lscpu",
+    "description": "عرض معلومات المعالج",
+    "example": "lscpu",
+    "category": "العتاد والنواة",
+    "caution": false
+  },
+  {
+    "command": "lsmem",
+    "description": "عرض معلومات الذاكرة",
+    "example": "lsmem",
+    "category": "العتاد والنواة",
+    "caution": false
+  },
+  {
+    "command": "lsusb",
+    "description": "عرض أجهزة USB",
+    "example": "lsusb",
+    "category": "العتاد والنواة",
+    "caution": false
+  },
+  {
+    "command": "lspci",
+    "description": "عرض أجهزة PCI",
+    "example": "lspci",
+    "category": "العتاد والنواة",
+    "caution": false
+  },
+  {
+    "command": "lsmod",
+    "description": "عرض وحدات النواة",
+    "example": "lsmod",
+    "category": "العتاد والنواة",
+    "caution": false
+  },
+  {
+    "command": "modinfo",
+    "description": "معلومات وحدة نواة",
+    "example": "modinfo loop",
+    "category": "العتاد والنواة",
+    "caution": false
+  },
+  {
+    "command": "modprobe",
+    "description": "تحميل وحدة نواة",
+    "example": "modprobe --show-depends loop",
+    "category": "العتاد والنواة",
+    "caution": false
+  },
+  {
+    "command": "sysctl",
+    "description": "عرض إعدادات النواة",
+    "example": "sysctl kernel.hostname",
+    "category": "العتاد والنواة",
+    "caution": false
+  },
+  {
+    "command": "udevadm",
+    "description": "الاستعلام عن أجهزة udev",
+    "example": "udevadm info --help",
+    "category": "العتاد والنواة",
+    "caution": false
+  },
+  {
+    "command": "lsb_release",
+    "description": "عرض معلومات التوزيعة",
+    "example": "lsb_release -a",
+    "category": "العتاد والنواة",
+    "caution": false
+  },
+  {
+    "command": "arch",
+    "description": "عرض بنية المعالج",
+    "example": "arch",
+    "category": "العتاد والنواة",
+    "caution": false
+  },
+  {
+    "command": "getconf",
+    "description": "قراءة إعدادات النظام",
+    "example": "getconf LONG_BIT",
+    "category": "العتاد والنواة",
+    "caution": false
+  },
+  {
+    "command": "nft",
+    "description": "عرض قواعد جدار الحماية",
+    "example": "sudo nft list ruleset",
+    "category": "الحماية والإدارة",
+    "caution": true
+  },
+  {
+    "command": "iptables",
+    "description": "عرض قواعد جدار الحماية",
+    "example": "sudo iptables -L",
+    "category": "الحماية والإدارة",
+    "caution": true
+  },
+  {
+    "command": "ufw",
+    "description": "عرض حالة جدار الحماية",
+    "example": "sudo ufw status",
+    "category": "الحماية والإدارة",
+    "caution": false
+  },
+  {
+    "command": "sshd",
+    "description": "التحقق من إعدادات SSH",
+    "example": "sshd -t",
+    "category": "الحماية والإدارة",
+    "caution": false
+  },
+  {
+    "command": "gpg",
+    "description": "عرض إصدار GnuPG",
+    "example": "gpg --version",
+    "category": "الحماية والإدارة",
+    "caution": false
+  },
+  {
+    "command": "sha256sum",
+    "description": "حساب SHA-256",
+    "example": "sha256sum notes.txt",
+    "category": "الحماية والإدارة",
+    "caution": false
+  },
+  {
+    "command": "sha512sum",
+    "description": "حساب SHA-512",
+    "example": "sha512sum notes.txt",
+    "category": "الحماية والإدارة",
+    "caution": false
+  },
+  {
+    "command": "md5sum",
+    "description": "حساب MD5 للتحقق غير الأمني",
+    "example": "md5sum notes.txt",
+    "category": "الحماية والإدارة",
+    "caution": false
+  },
+  {
+    "command": "openssl",
+    "description": "عرض إصدار OpenSSL",
+    "example": "openssl version",
+    "category": "الحماية والإدارة",
+    "caution": false
+  },
+  {
+    "command": "getcap",
+    "description": "عرض صلاحيات capabilities",
+    "example": "getcap /usr/bin/ping",
+    "category": "الحماية والإدارة",
+    "caution": false
+  },
+  {
+    "command": "setcap",
+    "description": "تعديل capabilities",
+    "example": "setcap --help",
+    "category": "الحماية والإدارة",
+    "caution": true
+  },
+  {
+    "command": "ulimit",
+    "description": "عرض حدود موارد الصدفة",
+    "example": "ulimit -a",
+    "category": "الحماية والإدارة",
+    "caution": false
+  },
+  {
+    "command": "visudo",
+    "description": "التحقق من ملف sudoers",
+    "example": "sudo visudo -c",
+    "category": "الحماية والإدارة",
+    "caution": false
+  },
+  {
+    "command": "lastb",
+    "description": "عرض محاولات الدخول الفاشلة",
+    "example": "sudo lastb",
+    "category": "الحماية والإدارة",
+    "caution": false
+  },
+  {
+    "command": "faillock",
+    "description": "عرض حالات فشل المصادقة",
+    "example": "faillock --help",
+    "category": "الحماية والإدارة",
+    "caution": false
+  }
+]
